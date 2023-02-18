@@ -82,19 +82,18 @@ export default function Info({ open, handleClose }) {
               <ListItem
                 button
                 onClick={() =>
-                  (window.location.href =
-                    "https://github.com/TheOriginalAyaka/sekai-stickers/graphs/contributors")
+                  (window.location.href = "https://github.com/ShirokamiRyzen")
                 }
               >
                 <ListItemAvatar>
                   <Avatar
-                    alt="Contributors"
-                    src="https://avatars.githubusercontent.com/u/583231"
+                    alt="Ayaka"
+                    src="https://avatars.githubusercontent.com/ShirokamiRyzen"
                   />
                 </ListItemAvatar>
                 <ListItemText
-                  primary="Contributors"
-                  secondary="for the help with the code"
+                  primary="ShirokamiRyzen"
+                  secondary="for turu"
                 />
               </ListItem>
             </List>
